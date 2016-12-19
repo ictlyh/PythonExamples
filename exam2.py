@@ -19,7 +19,8 @@
 
 def func():
     while True:
-        revenue = long(raw_input("Please input your revenue,(0 to exit):"))
+        # revenue = long(raw_input("Please input your revenue,(0 to exit):"))
+        revenue = 100
         if revenue == 0:
             return
         elif revenue < 0:
@@ -38,6 +39,7 @@ def func():
             else:
                 award = 10 * 0.1 + 10 * 0.075 + 20 * 0.05 + 20 * 0.03 + 40 * 0.015 + (revenue - 100) * 0.001
             print 'award = ', award
+        break
 
 
 if __name__ == "__main__":

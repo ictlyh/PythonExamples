@@ -20,9 +20,12 @@ def isspecialyear(year):
 
 
 def func():
-    year = int(raw_input("Year:"))
-    month = int(raw_input("month:"))
-    day = int(raw_input("day:"))
+    # year = int(raw_input("Year:"))
+    # month = int(raw_input("month:"))
+    # day = int(raw_input("day:"))
+    year = 2015
+    month = 6
+    day = 7
     count = 0
     for i in range(0, month - 1):
         count += days[i]

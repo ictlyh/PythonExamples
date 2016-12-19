@@ -23,10 +23,10 @@ def bubblesort(nums):
 
 
 def func():
-    n = int(raw_input("input how many numbers:"))
-    nums = []
-    for i in range(0, n):
-        nums.append(int(raw_input("number %d: " % (i + 1))))
+    nums = [2,1,4,3,5]
+    # n = int(raw_input("input how many numbers:"))
+    # for i in range(0, 5):
+    #     nums.append(int(raw_input("number %d: " % (i + 1))))
     bubblesort(nums)
 
 
