@@ -2,5 +2,11 @@ language: python
 python:
   - "2.7"
 
+install:
+  - pip install codecov
+
 script:
   - sh run.sh
+
+after_success:
+  - codecov
