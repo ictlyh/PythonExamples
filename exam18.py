@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-# encoding: utf-8
+# -*- coding: utf-8 -*-
 
 """
 @desc: 求s=a+aa+aaa+aaaa+aa...a的值，其中a是一个数字。

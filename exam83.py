@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-# encoding: utf-8
+# -*- coding: utf-8 -*-
 
 """
 @desc: 求0—7所能组成的奇数个数。（9位数以内）

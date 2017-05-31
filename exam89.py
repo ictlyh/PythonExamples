@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-# encoding: utf-8
+# -*- coding: utf-8 -*-
 
 """
 @desc: 某个公司采用公用电话传递数据，数据是四位的整数，在传递过程中是加密的，加密规则如下:

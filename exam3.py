@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-# encoding: utf-8
+# -*- coding: utf-8 -*-
 
 """
 @desc: 一个整数，它加上100和加上268后都是一个完全平方数，请问该数是多少？

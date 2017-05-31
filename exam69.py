@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-# encoding: utf-8
+# -*- coding: utf-8 -*-
 
 """
 @desc: 有n个人围成一圈，顺序排号。从第一个人开始报数（从1到3报数），

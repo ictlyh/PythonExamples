@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-# encoding: utf-8
+# -*- coding: utf-8 -*-
 
 """
 @desc: 学习使用auto定义变量的用法。没有auto关键字，使用变量作用域来举例吧。

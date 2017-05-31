@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-# encoding: utf-8
+# -*- coding: utf-8 -*-
 
 """
 @desc: 编写一个函数，输入n为偶数时，调用函数求1/2+1/4+...+1/n,
