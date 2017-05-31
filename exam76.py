@@ -32,5 +32,5 @@ def dcall(fp, n):
 
 
 if __name__ == "__main__":
-    print dcall(peven, 6)
-    print dcall(podd, 5)
+    print(dcall(peven, 6))
+    print(dcall(podd, 5))

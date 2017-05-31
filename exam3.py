@@ -17,7 +17,7 @@ def func():
         x = int(math.sqrt(i + 100))
         y = int(math.sqrt(i + 268))
         if x * x == (i + 100) and y * y == (i + 268):
-            print 'num = ', i
+            print('num = ', i)
 
 
 if __name__ == "__main__":

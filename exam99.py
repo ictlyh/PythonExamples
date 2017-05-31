@@ -18,9 +18,9 @@ def func():
     fa.close()
     fb.close()
     l = list(a + b)
-    print l
+    print(l)
     l.sort()
-    print l
+    print(l)
 
 
 if __name__ == "__main__":

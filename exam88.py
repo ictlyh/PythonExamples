@@ -12,7 +12,7 @@
 
 def func(nums):
     for num in nums:
-        print '*' * num
+        print('*' * num)
 
 
 if __name__ == "__main__":

@@ -11,9 +11,9 @@
 
 
 def func(lists):
-    print ",".join(str(ele) for ele in lists)
+    print(",".join(str(ele) for ele in lists))
     lists.reverse()
-    print ",".join(str(ele) for ele in lists)
+    print(",".join(str(ele) for ele in lists))
 
 
 if __name__ == "__main__":

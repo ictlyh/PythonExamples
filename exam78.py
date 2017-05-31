@@ -16,7 +16,7 @@ def func():
     for key in person.keys():
         if person[m] < person[key]:
             m = key
-    print '%s,%d' % (m, person[m])
+    print('%s,%d' % (m, person[m]))
 
 
 if __name__ == "__main__":

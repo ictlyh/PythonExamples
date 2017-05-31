@@ -22,7 +22,7 @@ def func():
     fr = open("exam97.py.bak", "r")
     a = fr.read()
     fr.close()
-    print a
+    print(a)
     os.remove("exam97.py.bak")
 
 

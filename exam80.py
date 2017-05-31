@@ -34,7 +34,7 @@ def func():
                 i += 1
             x = (x / 4) * 5 + 1
         j += 1
-    print x
+    print(x)
 
 
 if __name__ == "__main__":

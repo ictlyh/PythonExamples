@@ -14,5 +14,5 @@
 
 
 if __name__ == '__main__':
-    #print external.add(10, 20)
-    print 0
+    #print(external.add(10, 20))
+    print(0)

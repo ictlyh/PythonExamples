@@ -12,7 +12,7 @@
 
 def bubblesort(strs):
     for s in strs:
-        print s
+        print(s)
     n = len(strs)
     for i in range(0, n):
         for j in range(0, n - i - 1):
@@ -21,7 +21,7 @@ def bubblesort(strs):
                 strs[j] = strs[j + 1]
                 strs[j + 1] = tmp
     for s in strs:
-        print s
+        print(s)
 
 
 if __name__ == "__main__":

@@ -25,7 +25,7 @@ def isspecial(n):
 if __name__ == "__main__":
     for i in range(100, 1000):
         if isspecial(i):
-            print i, 'is a special number'
+            print(i, 'is a special number')
         # else:
-        #    print i, 'is not a special number'
+        #    print(i, 'is not a special number')
 

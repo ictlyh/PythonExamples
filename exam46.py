@@ -14,7 +14,7 @@ def func(nums):
     for num in nums:
         if num ** 2 < 50:
             break
-        print num ** 2
+        print(num ** 2)
 
 
 if __name__ == "__main__":

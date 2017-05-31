@@ -17,7 +17,7 @@ def func(a, b, c):
         a, c = c, a
     if b > c:
         b, c = c, b
-    print a, b, c
+    print(a, b, c)
 
 
 if __name__ == "__main__":

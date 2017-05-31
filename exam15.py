@@ -16,6 +16,6 @@ def func(score):
 
 
 if __name__ == "__main__":
-    print func(90)
-    print func(60)
-    print func(40)
+    print(func(90))
+    print(func(60))
+    print(func(40))

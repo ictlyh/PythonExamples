@@ -24,6 +24,6 @@ def func():
 
 if __name__ == "__main__":
     count, items = func()
-    print 'count = ', count
+    print('count = ', count)
     for item in items:
-        print item
+        print(item)

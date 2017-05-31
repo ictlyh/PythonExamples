@@ -13,11 +13,11 @@
 num = 2
 def autofunc():
     num = 1
-    print 'internal block num = %d' % num
+    print('internal block num = %d' % num)
     num += 1
 
 if __name__ == "__main__":
     for i in range(3):
-        print 'The num = %d' % num
+        print('The num = %d' % num)
         num += 1
     autofunc()

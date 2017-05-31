@@ -24,7 +24,7 @@ def func():
         if revenue == 0:
             return
         elif revenue < 0:
-            print 'invalid revenue', revenue, 'can not be negative'
+            print('invalid revenue', revenue, 'can not be negative')
         else:
             if revenue <= 10:
                 award = revenue * 0.1
@@ -38,7 +38,7 @@ def func():
                 award = 10 * 0.1 + 10 * 0.075 + 20 * 0.05 + 20 * 0.03 + (revenue - 60) * 0.015
             else:
                 award = 10 * 0.1 + 10 * 0.075 + 20 * 0.05 + 20 * 0.03 + 40 * 0.015 + (revenue - 100) * 0.001
-            print 'award = ', award
+            print('award = ', award)
         break
 
 

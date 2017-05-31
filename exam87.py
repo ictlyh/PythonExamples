@@ -20,7 +20,7 @@ class Point:
         self.y = b
 
     def show(self):
-        print '%d,%d' % (self.x, self.y)
+        print('%d,%d' % (self.x, self.y))
 
 
 if __name__ == "__main__":

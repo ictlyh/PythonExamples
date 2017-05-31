@@ -19,7 +19,7 @@ def bubblesort(nums):
                 nums[j] = nums[j + 1]
                 nums[j + 1] = tmp
     for num in nums:
-        print num
+        print(num)
 
 
 def func():

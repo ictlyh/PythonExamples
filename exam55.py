@@ -22,19 +22,19 @@
 '''
 
 def func():
-    print '~0X00FF = ', ~0X00FF
-    print '~0X0A0B = ', ~0X0A0B
-    print '{0:b}'.format(3)
-    print '{0:c}'.format(30)
-    print '{0:d}'.format(3)
-    print '{0:o}'.format(10)
-    print '{0:x}'.format(30)
-    print '{0:e}'.format(3)
-    print '{0:f}'.format(3)
-    print '{0:g}'.format(3)
-    print '{0:n}'.format(3)
-    print '{0:n}'.format(3.1415)
-    print '{0:%}'.format(0.15)
+    print('~0X00FF = ', ~0X00FF)
+    print('~0X0A0B = ', ~0X0A0B)
+    print('{0:b}'.format(3))
+    print('{0:c}'.format(30))
+    print('{0:d}'.format(3))
+    print('{0:o}'.format(10))
+    print('{0:x}'.format(30))
+    print('{0:e}'.format(3))
+    print('{0:f}'.format(3))
+    print('{0:g}'.format(3))
+    print('{0:n}'.format(3))
+    print('{0:n}'.format(3.1415))
+    print('{0:%}'.format(0.15))
 
 
 if __name__ == "__main__":

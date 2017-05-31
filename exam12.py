@@ -11,7 +11,7 @@
 
 
 def isprime(n):
-    for i in range(2, n / 2):
+    for i in range(2, int(n / 2)):
         if n % i == 0:
             return False
     return True
@@ -29,6 +29,6 @@ def func(a, b):
 
 if __name__ == "__main__":
     c, primes = func(100, 200)
-    print 'c = ', c
+    print('c = ', c)
     for i in primes:
-        print i
+        print(i)

@@ -18,7 +18,7 @@ def selectsort(nums):
             if nums[j] < nums[idx]:
                 idx = j
         nums[i], nums[idx] = nums[idx], nums[i]
-    print ",".join(str(num) for num in nums)
+    print(",".join(str(num) for num in nums))
 
 
 if __name__ == "__main__":

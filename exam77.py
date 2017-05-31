@@ -12,7 +12,7 @@
 
 def func(s):
     for i in range(len(s)):
-        print s[i]
+        print(s[i])
 
 
 if __name__ == "__main__":

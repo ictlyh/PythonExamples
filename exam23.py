@@ -26,13 +26,13 @@ def func():
             stdout.write(' ')
         for k in range(2 * i + 1):
             stdout.write('*')
-        print
+        print()
     for i in range(3):
         for j in range(i + 1):
             stdout.write(' ')
         for k in range(4 - 2 * i + 1):
             stdout.write('*')
-        print
+        print()
 
 
 if __name__ == "__main__":

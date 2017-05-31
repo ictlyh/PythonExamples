@@ -31,7 +31,7 @@ def func(n):
     i = 0
     while num[i] == 0:
         i += 1
-    print num[i]
+    print(num[i])
 
 
 if __name__ == "__main__":

@@ -13,8 +13,8 @@
 def func():
     delimiter = ','
     mylist = ['Brazil', 'Russia', 'India', 'China']
-    print delimiter.join(mylist)
-    print delimiter.join(s for s in mylist)
+    print(delimiter.join(mylist))
+    print(delimiter.join(s for s in mylist))
 
 
 if __name__ == "__main__":

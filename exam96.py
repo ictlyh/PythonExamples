@@ -13,7 +13,7 @@
 def func():
     a = "hello, nice to meet you. Nice to meet you too"
     b = 'nice'
-    print a.lower().count(b.lower())
+    print(a.lower().count(b.lower()))
 
 if __name__ == "__main__":
     func()

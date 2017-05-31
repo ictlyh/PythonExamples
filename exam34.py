@@ -11,17 +11,17 @@
 
 # 可以看到 python 函数可以先调用后定义
 def a():
-    print 'calling b'
+    print('calling b')
     b()
 
 
 def b():
-    print 'calling c'
+    print('calling c')
     c()
 
 
 def c():
-    print 'c'
+    print('c')
 
 
 if __name__ == "__main__":

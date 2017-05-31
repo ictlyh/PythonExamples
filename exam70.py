@@ -15,5 +15,5 @@ def func(s):
 
 
 if __name__ == "__main__":
-    print func("nihao")
-    print func("你好")
+    print(func("nihao"))
+    print(func("你好"))

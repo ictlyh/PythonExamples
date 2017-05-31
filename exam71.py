@@ -21,20 +21,20 @@ for i in range(5):
 
 def inputstu(stu):
     for i in range(N):
-        stu[i][0] = raw_input('input student num:\n')
-        stu[i][1] = raw_input('input student name:\n')
+        stu[i][0] = input('input student num:\n')
+        stu[i][1] = input('input student name:\n')
         for j in range(3):
-            stu[i][2].append(int(raw_input('score:\n')))
+            stu[i][2].append(int(input('score:\n')))
 
 
 def outputstu(stu):
     for i in range(N):
-        print '%-6s%-10s' % (stu[i][0], stu[i][1] )
+        print('%-6s%-10s' % (stu[i][0], stu[i][1] ))
         for j in range(3):
-            print '%-8d' % stu[i][2][j]
+            print('%-8d' % stu[i][2][j])
 
 if __name__ == '__main__':
-    print
+    print()
     # inputstu(student)
-    # print student
+    # print(student)
     # outputstu(student)

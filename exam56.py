@@ -9,8 +9,7 @@
 @time: 2016/12/25 18:30
 """
 
-
-from Tkinter import *
+from tkinter import *
 
 
 def func():

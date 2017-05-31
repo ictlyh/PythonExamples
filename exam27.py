@@ -11,7 +11,7 @@
 
 
 def func(s, i):
-    print s[i]
+    print(s[i])
     if i == 0:
         return
     else:

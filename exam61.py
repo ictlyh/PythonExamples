@@ -22,7 +22,7 @@ def func(n):
         line.append(1)
         lines.append(line)
     for line in lines:
-        print ' '.join(str(num) for num in line)
+        print(' '.join(str(num) for num in line))
 
 
 if __name__ == "__main__":

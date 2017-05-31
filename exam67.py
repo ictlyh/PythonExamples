@@ -11,7 +11,7 @@
 
 
 def func(nums):
-    print ','.join(str(num) for num in nums)
+    print(','.join(str(num) for num in nums))
     minidx = 0
     maxidx = 0
     for i in range(len(nums)):
@@ -22,7 +22,7 @@ def func(nums):
         if nums[i] > nums[maxidx]:
             maxidx = i
     nums[maxidx], nums[0] = nums[0], nums[maxidx]
-    print ','.join(str(num) for num in nums)
+    print(','.join(str(num) for num in nums))
 
 
 if __name__ == "__main__":

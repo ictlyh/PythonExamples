@@ -15,14 +15,14 @@ import random
 
 
 def func():
-    print random.randint(1, 10)
-    print random.random()
-    print random.uniform(1, 10)
-    print random.choice('abcde')
+    print(random.randint(1, 10))
+    print(random.random())
+    print(random.uniform(1, 10))
+    print(random.choice('abcde'))
     items = [1, 2, 3, 4, 5]
     random.shuffle(items)
-    print items
-    print random.sample([1, 2, 3, 4, 5], 2)
+    print(items)
+    print(random.sample([1, 2, 3, 4, 5], 2))
 
 
 if __name__ == "__main__":

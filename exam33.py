@@ -15,4 +15,4 @@ def func(lists):
 
 
 if __name__ == "__main__":
-    print func([1,2,3,4,5])
+    print(func([1,2,3,4,5]))

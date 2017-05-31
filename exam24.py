@@ -17,7 +17,7 @@ def func():
     for i in range(20):
         s += (a / b)
         a, b = a + b, a
-    print s
+    print(s)
 
 
 if __name__ == "__main__":

@@ -36,6 +36,6 @@ def func(s):
 
 
 if __name__ == "__main__":
-    print func('SA')
-    print func('TU')
-    print func('F')
+    print(func('SA'))
+    print(func('TU'))
+    print(func('F'))

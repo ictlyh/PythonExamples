@@ -16,18 +16,18 @@ def func(num):
     while tmp:
         s += chr(tmp % 10 + 48)
         tmp /= 10
-    if long(s) == num:
-        print True
+    if int(s) == num:
+        print(True)
     else:
-        print False
+        print(False)
 
 
 def func2(num):
     s = str(num)
-    for i in range(len(s) / 2):
+    for i in range(int(len(s) / 2)):
         if s[i] != s[-i - 1]:
             return False
     return True
 
 if __name__ == "__main__":
-    print func2(100901)
+    print(func2(100901))

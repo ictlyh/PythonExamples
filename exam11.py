@@ -22,5 +22,5 @@ def func(n):
 
 if __name__ == "__main__":
     for i in range(1, 20):
-        print func(i)
+        print(func(i))
 

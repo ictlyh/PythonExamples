@@ -20,4 +20,4 @@ def func(n):
 
 
 if __name__ == "__main__":
-    print func(20)
+    print(func(20))

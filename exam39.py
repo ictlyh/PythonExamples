@@ -23,7 +23,7 @@ def func(nums, num):
                 nums[i] = num
                 break
     for n in nums:
-        print n
+        print(n)
 
 
 if __name__ == "__main__":

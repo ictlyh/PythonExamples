@@ -10,7 +10,7 @@
 """
 
 
-from Tkinter import *
+from tkinter import *
 import math
 
 

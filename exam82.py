@@ -26,4 +26,4 @@ def func(odigits):
 
 
 if __name__ == "__main__":
-    print func('16')
+    print(func('16'))

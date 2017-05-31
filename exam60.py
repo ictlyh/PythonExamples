@@ -11,10 +11,10 @@
 
 
 def func():
-    print len("hello")
-    print len('hello')
-    print len('你好')
-    print len("你好吗")
+    print(len("hello"))
+    print(len('hello'))
+    print(len('你好'))
+    print(len("你好吗"))
 
 
 if __name__ == "__main__":

@@ -19,4 +19,4 @@ def func(matrix):
 
 if __name__ == "__main__":
     m = [[1, 1, 1], [2, 2, 2], [3, 3, 3]]
-    print func(m)
+    print(func(m))

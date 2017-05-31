@@ -12,7 +12,7 @@
 
 def func(n):
     a = 0X0F
-    print (n >> 4) & a
+    print((n >> 4) & a)
 
 
 if __name__ == "__main__":

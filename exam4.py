@@ -32,7 +32,7 @@ def func():
     count += day
     if month > 2 and isspecialyear(year):
         count += 1
-    print 'day count: ', count
+    print('day count: ', count)
 
 
 if __name__ == "__main__":

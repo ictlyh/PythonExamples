@@ -14,9 +14,9 @@ def func():
     a = [1, 2]
     b = ['a', 'b']
     c = [(1, 2, 3), (4, 5, 6)]
-    print a, b, c
+    print(a, b, c)
     d = dict([a, b, c])
-    print d
+    print(d)
 
 
 if __name__ == "__main__":

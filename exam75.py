@@ -22,7 +22,7 @@ def func():
         if i != 4:
             n += 1
         if n == 3:
-            print 64 + i
+            print(64 + i)
 
 
 if __name__ == "__main__":

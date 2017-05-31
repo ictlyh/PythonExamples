@@ -23,7 +23,7 @@ def func(num):
     b = (b + 5) % 10
     c = (c + 5) % 10
     d = (d + 5) % 10
-    print 1000 * d + 100 * c + 10 * b + a
+    print(1000 * d + 100 * c + 10 * b + a)
 
 
 if __name__ == "__main__":

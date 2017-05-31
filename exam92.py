@@ -16,10 +16,10 @@ import time
 def func():
     start = time.time()
     for i in range(3):
-        print i
+        print(i)
         time.sleep(1)
     end = time.time()
-    print end - start
+    print(end - start)
 
 
 if __name__ == "__main__":

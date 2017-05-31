@@ -21,4 +21,4 @@ def func(h, c):
 
 if __name__ == "__main__":
     dist, h = func(100.0, 10)
-    print 'dist = %f, h = %f' % (dist, h)
+    print('dist = %f, h = %f' % (dist, h))

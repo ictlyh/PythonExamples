@@ -18,4 +18,4 @@ def func(n):
 
 
 if __name__ == "__main__":
-    print func(5)
+    print(func(5))

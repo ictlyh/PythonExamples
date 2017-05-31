@@ -24,6 +24,6 @@ def func(nums, m):
 
 
 if __name__ == "__main__":
-    print ",".join(str(num) for num in func([1, 2, 3, 4, 5, 6], 2))
-    print ",".join(str(num) for num in func([], 1))
-    print ",".join(str(num) for num in func([1, 2, 3, 4, 5, 6], 12))
+    print(",".join(str(num) for num in func([1, 2, 3, 4, 5, 6], 2)))
+    print(",".join(str(num) for num in func([], 1)))
+    print(",".join(str(num) for num in func([1, 2, 3, 4, 5, 6], 12)))

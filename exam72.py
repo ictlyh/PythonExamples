@@ -14,7 +14,7 @@ def func():
     lists = []
     for i in range(5):
         lists.append("hello" + str(i))
-    print ",".join(s for s in lists)
+    print(",".join(s for s in lists))
 
 
 if __name__ == "__main__":

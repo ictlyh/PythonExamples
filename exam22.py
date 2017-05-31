@@ -18,9 +18,9 @@ def func():
         for b in bteam:
             for c in bteam:
                 if a != 'x' and c != 'x' and c != 'z' and a != b and b != c and c != a:
-                    print 'a ->', a
-                    print 'b ->', b
-                    print 'c ->', c
+                    print('a ->', a)
+                    print('b ->', b)
+                    print('c ->', c)
 
 if __name__ == "__main__":
     func()

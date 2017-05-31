@@ -11,9 +11,9 @@
 
 
 def func():
-    print "hello".find("he")
-    print "hello".find("aa")
-    print "hello".find('l')
+    print("hello".find("he"))
+    print("hello".find("aa"))
+    print("hello".find('l'))
 
 
 if __name__ == "__main__":

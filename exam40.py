@@ -12,11 +12,11 @@
 
 def func(nums):
     for n in nums:
-        print n
-    for i in range(len(nums) / 2):
+        print(n)
+    for i in range(int(len(nums) / 2)):
         nums[i], nums[-i - 1] = nums[-i - 1], nums[i]
     for n in nums:
-        print n
+        print(n)
 
 
 if __name__ == "__main__":

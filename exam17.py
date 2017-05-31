@@ -24,10 +24,10 @@ def func(s):
             digit += 1
         else:
             others += 1
-    print 'letters = ', letter
-    print 'space = ', space
-    print 'digit = ', digit
-    print 'other = ', others
+    print('letters = ', letter)
+    print('space = ', space)
+    print('digit = ', digit)
+    print('other = ', others)
 
 
 if __name__ == "__main__":

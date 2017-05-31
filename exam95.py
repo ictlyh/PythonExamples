@@ -14,7 +14,7 @@ from dateutil import parser
 
 def func():
     dt = parser.parse("Aug 28 2015 12:00AM")
-    print dt
+    print(dt)
 
 
 if __name__ == "__main__":

@@ -17,13 +17,13 @@ def func(digit, number):
     isfirst = True
     for i in range(1, number + 1):
         tmp = str(digit) * i
-        s += long(tmp)
+        s += int(tmp)
         if isfirst:
             exp += tmp
             isfirst = False
         else:
             exp += ' + ' + tmp
-    print exp, ' = ', s
+    print(exp, ' = ', s)
 
 
 if __name__ == "__main__":

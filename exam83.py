@@ -19,7 +19,7 @@ def func():
         else:
             s *= 8
         sum += s
-    print 'sum = %d' % sum
+    print('sum = %d' % sum)
 
 
 if __name__ == "__main__":

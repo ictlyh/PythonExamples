@@ -12,7 +12,7 @@
 
 def func(lists):
     for i in range(len(lists)):
-        print lists[-i - 1]
+        print(lists[-i - 1])
 
 
 if __name__ == "__main__":

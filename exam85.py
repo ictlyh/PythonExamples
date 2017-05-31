@@ -18,7 +18,7 @@ def func(prime):
             break
         val = val * 10 + 9
         n += 1
-    print "%d %% %d == 0" % (val, prime)
+    print("%d %% %d == 0" % (val, prime))
 
 if __name__ == "__main__":
     func(3)

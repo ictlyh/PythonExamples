@@ -11,7 +11,7 @@
 
 
 def func(num):
-    nums = range(0, num + 1)
+    nums = list(range(0, num + 1))
     for i in range(2, num + 1):
         j = 2
         while i * j <= num:
@@ -19,7 +19,7 @@ def func(num):
             j += 1
     for i in range(2, num + 1):
         if nums[i] != 0:
-            print i
+            print(i)
 
 
 if __name__ == "__main__":

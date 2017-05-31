@@ -15,10 +15,10 @@ def func(num):
     while num:
         c += 1
         digits.append(num % 10)
-        num /= 10
-    print c
+        num = int(num / 10)
+    print(c)
     for i in range(c):
-        print digits[i]
+        print(digits[i])
 
 
 if __name__ == "__main__":

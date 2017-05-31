@@ -24,7 +24,7 @@ def primefacts(n):
                 n /= i
             else:
                 break
-    print s
+    print(s)
 
 
 if __name__ == "__main__":

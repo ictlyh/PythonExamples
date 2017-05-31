@@ -16,9 +16,9 @@ import time
 def func():
     start = time.clock()
     for i in range(10000):
-        print i
+        print(i)
     end = time.clock()
-    print 'different is %6.3f' % (end - start)
+    print('different is %6.3f' % (end - start))
 
 
 if __name__ == "__main__":

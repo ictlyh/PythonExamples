@@ -20,14 +20,14 @@ def func():
         ENDC = '\033[0m'
         BOLD = '\033[1m'
         UNDERLINE = '\033[4m'
-    print bcolors.HEADER, "HEADER"
-    print bcolors.OKBLUE, "OKBLUE"
-    print bcolors.OKGREEN, "OKGREEN"
-    print bcolors.WARNING, "WARNING"
-    print bcolors.FAIL, "FAIL"
-    print bcolors.ENDC, "ENDC"
-    print bcolors.BOLD, "BOLD"
-    print bcolors.UNDERLINE, "UNDERLINE"
+    print(bcolors.HEADER, "HEADER")
+    print(bcolors.OKBLUE, "OKBLUE")
+    print(bcolors.OKGREEN, "OKGREEN")
+    print(bcolors.WARNING, "WARNING")
+    print(bcolors.FAIL, "FAIL")
+    print(bcolors.ENDC, "ENDC")
+    print(bcolors.BOLD, "BOLD")
+    print(bcolors.UNDERLINE, "UNDERLINE")
 
 
 if __name__ == "__main__":

@@ -13,6 +13,6 @@ import time
 
 
 if __name__ == "__main__":
-    print "sleep from 5 seconds"
+    print("sleep from 5 seconds")
     time.sleep(5)
-    print "end"
+    print("end")
